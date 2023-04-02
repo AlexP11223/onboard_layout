@@ -848,19 +848,19 @@ Copyright © 2011-2014, marmuta &lt;marmvta@gmail.com&gt;</dc:title>
    y="78.5"
    x="323.5" />
 <rect
-   id="secondaryclick"
-   style="fill:#eca76b;fill-opacity:0.90196073;stroke:#000000;stroke-width:0.99999994000000003"
-   height="18"
-   width="17"
-   y="19.5"
-   x="247.5" />
-<rect
    id="middleclick"
    style="fill:#eca76b;fill-opacity:0.90196073;stroke:#000000;stroke-width:0.99999994000000003"
    height="18"
    width="17"
    y="19.5"
-   x="265.5" />
+   x="285.5" />
+<rect
+   id="secondaryclick"
+   style="fill:#eca76b;fill-opacity:0.90196073;stroke:#000000;stroke-width:0.99999994000000003"
+   height="18"
+   width="17"
+   y="19.5"
+   x="304.5" />
 <g
    id="RTRN">
   <path

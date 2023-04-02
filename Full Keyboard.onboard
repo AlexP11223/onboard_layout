@@ -105,9 +105,8 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                     <key id='SPCE' group='bottomrow'/>
                     <key group='bottomrow' id='LWIN'/>
 
-                    <key id='Prnt' group='printblock' scan_priority='3'/>
-                    <key id='Pause' group='printblock' scan_priority='3'/>
-                    <key id='Scroll' group='printblock' scan_priority='3'/>
+                    <key group='click' id='middleclick'/>
+                    <key group='click' id='secondaryclick'/>
 
                     <key id='LEFT' group='directions' scan_priority='3'/>
                     <key id='RGHT' group='directions' scan_priority='3'/>
@@ -120,30 +119,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                     <key id='PGUP' group='editing' scan_priority='3'/>
                     <key id='PGDN' group='editing' scan_priority='3'/>
 
-                    <!-- function key row with click buttons visible -->
-                    <box group='click' orientation='horizontal'>
-                        <key group='bottomrow' id='ESC' scan_priority='2'/>
-                        <key group='fkeys' id='F1' scan_priority='2'/>
-                        <key group='fkeys' id='F2' scan_priority='2'/>
-                        <key group='fkeys' id='F3' scan_priority='2'/>
-                        <key group='fkeys' id='F4' scan_priority='2'/>
-                        <key group='fkeys' id='F5' scan_priority='2'/>
-                        <key group='fkeys' id='F6' scan_priority='2'/>
-                        <key group='fkeys' id='F7' scan_priority='2'/>
-                        <key group='fkeys' id='F8' scan_priority='2'/>
-                        <key group='fkeys' id='F9' scan_priority='2'/>
-                        <key group='fkeys' id='F10' scan_priority='2'/>
-                        <key group='fkeys' id='F11' scan_priority='2'/>
-                        <key group='fkeys' id='F12' scan_priority='2'/>
-                        <key group='click' id='middleclick'/>
-                        <key group='click' id='secondaryclick'/>
-                    </box>
-                    <key group='click' id='doubleclick' border='2'/>
-                    <key group='click' id='dragclick' border='2'/>
-                    <key group='click' id='hoverclick' border='2'/>
-
-                    <!-- function key row with click buttons invisible -->
-                    <panel group='noclick' scan_priority='2'>
+                    <panel scan_priority='2'>
                         <key group='bottomrow' id='ESC'/>
                         <key group='fkeys' id='F1'/>
                         <key group='fkeys' id='F2'/>
