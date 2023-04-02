@@ -20,7 +20,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 
 <keyboard
-    id="Full Keyboard"
+    id="Custom Full Keyboard"
     format="3.2"
     section="system"
     summary="Desktop keyboard with edit and function keys" >
@@ -30,14 +30,14 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
     <box border='0.5' spacing='3' orientation="vertical">
 
         <!--- word suggestions -->
-        <panel filename='Full Keyboard-Alpha.svg' scan_priority="1">
+        <panel filename='Custom Full Keyboard-Alpha.svg' scan_priority="1">
             <include file='word_suggestions.xml'/>
         </panel>
 
         <box spacing='3'>
             <!--- keyboard, multiple layers -->
             <panel>
-                <panel layer='alpha' filename='Full Keyboard-Alpha.svg'>
+                <panel layer='alpha' filename='Custom Full Keyboard-Alpha.svg'>
                     <key id='AB01' group='alphanumeric'/>
                     <key id='AE02' group='alphanumeric'/>
                     <key id='AE03' group='alphanumeric'/>
@@ -136,7 +136,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
                     </panel>
 
                 </panel>
-                <panel layer='numpad' filename='Full Keyboard-Numpad.svg' border='2'>
+                <panel layer='numpad' filename='Custom Full Keyboard-Numpad.svg' border='2'>
                     <key group='keypadmisc' id='NMLK' scan_priority='1'/>
                     <key id='KPSU' group='keypadoperators' scan_priority='1'/>
                     <key id='KPDV' group='keypadoperators' scan_priority='1'/>
@@ -177,7 +177,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
             </panel>
 
             <!--- side bar -->
-            <panel id='paneswitch' filename='Full Keyboard-Alpha.svg'>
+            <panel id='paneswitch' filename='Custom Full Keyboard-Alpha.svg'>
                 <box compact="true" orientation='vertical'>
                     <panel group='nowordlist'>
                         <box orientation='vertical'>
